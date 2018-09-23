@@ -29,7 +29,7 @@ gulp.task('browserSync', function() {
 gulp.task('wa', ['browserSync'], function (){
   gulp.watch('app/scss/**/*.scss', ['sass']); 
   //gulp.watch('app/js/**/*.js', ['babel']);
-  gulp.watch('app/js/**/*.js', browserSync.reload);
+  gulp.watch('app/jsNext/**/*.js', browserSync.reload);
   gulp.watch('app/*.html', browserSync.reload); 
 });
 
