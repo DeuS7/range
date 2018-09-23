@@ -34,11 +34,11 @@ gulp.task('wa', ['browserSync'], function (){
 });
 
 gulp.task('babel', () =>
-  gulp.src('app/js/**/*.js')
+  gulp.src('app/jsNext/**/*.js')
   .pipe(babel({
     presets: ['env', 'es2015']
   }))
-  .pipe(gulp.dest('app'))
+  .pipe(gulp.dest('app/js'))
   .pipe(browserSync.reload({
       stream: true
     }))
