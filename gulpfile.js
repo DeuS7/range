@@ -29,16 +29,16 @@ gulp.task('browserSync', function() {
 gulp.task('wa', ['browserSync'], function (){
   gulp.watch('app/scss/**/*.scss', ['sass']); 
   //gulp.watch('app/js/**/*.js', ['babel']);
-  gulp.watch('app/js/**/*.js', browserSync.reload);
+  gulp.watch('app/jsNext/**/*.js', browserSync.reload);
   gulp.watch('app/*.html', browserSync.reload); 
 });
 
 gulp.task('babel', () =>
-  gulp.src('app/js/**/*.js')
+  gulp.src('app/jsNext/**/*.js')
   .pipe(babel({
     presets: ['env', 'es2015']
   }))
-  .pipe(gulp.dest('app'))
+  .pipe(gulp.dest('app/js'))
   .pipe(browserSync.reload({
       stream: true
     }))
