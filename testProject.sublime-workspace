@@ -1,0 +1,700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"pause"
+			],
+			[
+				"refresh",
+				"refreshScoreBoard"
+			],
+			[
+				"min",
+				"minMisfireChance"
+			],
+			[
+				"clear",
+				"clearInfoBoard"
+			],
+			[
+				"curre",
+				"currentShots"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"shotB",
+				"shotButton"
+			],
+			[
+				"sou",
+				"soundName"
+			],
+			[
+				"bas",
+				"basDelay"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"get",
+				"getRandomNum"
+			],
+			[
+				"co",
+				"comment"
+			],
+			[
+				"comment",
+				"comments"
+			],
+			[
+				"create",
+				"createComment"
+			],
+			[
+				"num",
+				"numOfCircle"
+			],
+			[
+				"refre",
+				"refreshScoreBoard"
+			],
+			[
+				"paddint",
+				"padding-right\tproperty"
+			],
+			[
+				"shots",
+				"shots"
+			],
+			[
+				"tu",
+				"turnGameOff"
+			],
+			[
+				"turn",
+				"dashTurnOnButton"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"start",
+				"startGame"
+			],
+			[
+				"getELeme",
+				"getElementsByClassName"
+			],
+			[
+				"misi",
+				"misfireChance"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"mis",
+				"misfireChance"
+			],
+			[
+				"misfi",
+				"misfireChanceBoard"
+			],
+			[
+				"mi",
+				"misfireChance"
+			],
+			[
+				"misfire",
+				"refreshMisfireChanceBoard"
+			],
+			[
+				"bcakgru",
+				"background-clip\tproperty"
+			],
+			[
+				"backgruond-",
+				"background-repeat\tproperty"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"basic",
+				"basicMisfireChance"
+			],
+			[
+				"basi",
+				"basicMisfireChance"
+			],
+			[
+				"shot",
+				"shotsInARow"
+			],
+			[
+				"nu",
+				"numOfCircle"
+			],
+			[
+				"scope",
+				"scopeDimension"
+			],
+			[
+				"getDi",
+				"getDistToCenter"
+			],
+			[
+				"shotH",
+				"shotHoleDimension"
+			],
+			[
+				"shotHole",
+				"shotHoleDimension"
+			],
+			[
+				"makeS",
+				"makeSound"
+			],
+			[
+				"short",
+				"shortPoliteApplause.wav"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"bullet",
+				"bulletCenterCoordY"
+			],
+			[
+				"bull",
+				"bulletCenterCoordX"
+			],
+			[
+				"getDist",
+				"getDistToCenter"
+			],
+			[
+				"tran",
+				"transitionTime"
+			],
+			[
+				"di",
+				"dimension"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 1867,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/jsNext/main.js",
+			"settings":
+			{
+				"buffer_size": 14,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/jsNext/canvas.js",
+			"settings":
+			{
+				"buffer_size": 8672,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/jsNext/global.js",
+			"settings":
+			{
+				"buffer_size": 2244,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 3590,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/scss/vars.scss",
+			"settings":
+			{
+				"buffer_size": 972,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/never-off/Desktop/basicTemp",
+		"/C/Users/never-off/Desktop/basicTemp/app",
+		"/C/Users/never-off/Desktop/basicTemp/app/jsNext",
+		"/C/Users/never-off/Desktop/basicTemp/app/scss"
+	],
+	"file_history":
+	[
+		"/C/Users/never-off/Desktop/basicTemp/app/scss/fonts.scss",
+		"/C/Users/never-off/Desktop/basicTemp/app/fonts/style-7_digital-7/stylesheet.css",
+		"/C/Users/never-off/Desktop/basicTemp/app/jsNext/global.js",
+		"/C/Users/never-off/Desktop/basicTemp/gulpfile.js",
+		"/C/Users/never-off/Desktop/basicTemp/app/index.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shotsIn",
+			"startGame",
+			"startG",
+			"resetG",
+			"refresh",
+			"makeSho",
+			"digit",
+			"digit-7",
+			"resetG",
+			"resetGam",
+			"basicMisfireChance",
+			"basicmis",
+			"startGame",
+			"05s",
+			"eleme",
+			"line",
+			"linear-gradient",
+			"misfire",
+			"shot",
+			"\"])",
+			"makeSound(sounds",
+			"makeSound",
+			"makeS",
+			"maxScore",
+			"maxS",
+			"getSco",
+			"getRandom",
+			"createComment",
+			"createComme",
+			"pause",
+			"getScore",
+			"shotsBoard",
+			"numOfCircle",
+			"getResultOfShot",
+			"putHole",
+			"getScore",
+			"makeSho",
+			"makeSHot",
+			"scoreBoard",
+			"Digital",
+			"board",
+			"flyScop",
+			"var",
+			"toggleScope",
+			"refreshMisfireChanceBoard",
+			"lineTo",
+			"div",
+			"cleanTarget",
+			"clean",
+			"shot",
+			"stopGame",
+			"red",
+			"65",
+			"wrapper",
+			"makeShot",
+			"drawTar",
+			"makeShot",
+			"putHole",
+			"makeShot",
+			"alert",
+			"makeShot",
+			"getDistance",
+			"alert",
+			"shots[i].getBoundingClientRect()",
+			"var",
+			" cubic-bezier(0.5,0.5,0.5,0.9)",
+			"- shotHoleDimension",
+			"- shotHoleDimension / 2",
+			"Width",
+			"95",
+			"05",
+			"87",
+			"54",
+			"createScope",
+			"getRandomCoord",
+			"var",
+			"ctx",
+			"10",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								912,
+								916
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/jsNext/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/jsNext/canvas.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8672,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7154,
+								7154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 52.0,
+						"translation.y": 4695.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/jsNext/global.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2239,
+								2239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "app/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3281,
+								3281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3759.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/scss/vars.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 972,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 648.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.924698795181,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "testProject.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

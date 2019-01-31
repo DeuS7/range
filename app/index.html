@@ -4,13 +4,52 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Felix</title>
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	Vi veri veniversum vivus vici
+	<div id="contentWrapper">
+		<div id="canvasWrapper">
+			<canvas id="can"></canvas>
+			<div class="scope"></div>
+			<button id="shot" disabled>Make a Shot!</button>
+			<div id="dashBoard">
+				<button class="dashBoardElement dashTurnOn">
+					<i class="fa fa-power-off"></i>
+				</button>
+				<button class="dashBoardElement dashStartGame" disabled>
+					<i class="fa fa-play"></i>
+				</button>
+				<button class="dashBoardElement dashRefresh" disabled>
+					<i class="fa fa-undo"></i>
+				</button>
+				<div class="dashBoardElement dashExclMark">
+					<i class="fa fa-exclamation-triangle"></i>
+				</div>
+			</div>
+		</div>
+		<div id="playInfo">
+			<div class="flexColumnLine">
+				<div class="scoreBoard halfInfoBoard titleUnderBoard board" data-title="score"></div>
+				<div class="shotsBoard halfInfoBoard titleUnderBoard board" data-title="shots"></div>
+			</div>
+			<div class="flexColumnLine">
+				<div class="misfireChance board fullInfoBoard titleUnderBoard" data-title="misfire chance">
+					<div class="misfireChancePercentage"></div>
+				</div>
+			</div>
+			<div class="flexColumnLine">
+				<div class="fullInfoBoard board titleUnderBoard commentBoard" data-title="comments"></div>
+			</div>
+		</div>
+	</div>
+	<audio src="sound.mp3" id="shotSound"></audio>
 	<!-- MainScript -->
+	<script src="jsNext/global.js"></script>
+	<script src="jsNext/canvas.js"></script>
 	<script src="jsNext/main.js"></script>
 </body>
 </html>

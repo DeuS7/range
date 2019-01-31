@@ -8,16 +8,6 @@ h2.comTitle {
   font-family: font;
   font-size: 2rem; }
 
-h3.comTitle {
-  color: black;
-  font-family: font;
-  font-size: 2rem; }
-
-h4.comTitle {
-  color: black;
-  font-family: font;
-  font-size: 2rem; }
-
 p.comDscr {
   color: black;
   font-family: font;
@@ -27,6 +17,24 @@ p.comP {
   color: black;
   font-family: font;
   font-size: 2rem; }
+
+a.comButton {
+  height: 55px;
+  line-height: 55px;
+  background: transparent;
+  border: 3px solid red;
+  display: inline-block;
+  padding: 0 36px;
+  font-family: "Arial";
+  color: red;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 1.8rem; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 html {
   font-size: 62.5%; }
