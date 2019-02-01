@@ -1,0 +1,86 @@
+/** {
+    box-sizing: border-box;
+}*/
+a {
+    text-decoration: none;
+}
+.no-gutter > [class*='col-'] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.clearfix:after {
+    font-size: 0;
+
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: ' ';
+}
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+/* close commented backslash hack */
+.slider {
+    max-width: 1000px;
+    border: 1px solid red;
+    overflow: hidden;
+    user-select: none;
+}
+.sliderLine {
+    border: 1px solid red;
+    box-sizing: content-box !important;
+    position: relative;
+    transition: 0.5s ease-in-out;
+    left: 0;
+    pointer-events: none;
+}
+.sliderItem {
+    float: left;
+    pointer-events: none;
+}
+.next,
+.prev {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.dot {
+    width: 40px;
+    height: 40px;
+    background: grey;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+}
+.picturesDots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+}
+.picturesDots .activ:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: white;
+    top: 50%;
+    margin-top: -12px;
+    left: 50%;
+    margin-left: -12px;
+    border-radius: 50%;
+}
