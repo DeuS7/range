@@ -221,12 +221,14 @@ function putHole(x,y) {
 	return getResultOfShot(x,y);
 }
 
-function makeSound(soundName) {
-	var delay = sounds[soundName][1] || 0;
+function makeSound(soundName, delay, volume) {
+	var delay = sounds[soundName][1] || delay || 0;
 	var sound = sounds[soundName][0];
+	var volume = volume == undefined ? 1 : volume;
  	setTimeout(function() {
  		var audio = new Audio();
   		audio.src = '../audios/' + sound;
+  		audio.volume = volume;
  		audio.autoplay = true; 
  	}, delay * 1000)
 }

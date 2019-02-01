@@ -13,6 +13,7 @@ var dashRefreshButton = document.getElementsByClassName("dashRefresh")[0];
 var scoreBoard = document.getElementsByClassName("scoreBoard")[0];
 var shotsBoard = document.getElementsByClassName("shotsBoard")[0];
 var commentBoard = document.getElementsByClassName("commentBoard")[0];
+var preloader = document.getElementById("preloader");
 
 
 var dimension = 500;
