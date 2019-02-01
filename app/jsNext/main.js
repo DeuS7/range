@@ -4,5 +4,5 @@ initField();
 for (var key in sounds) {
 	makeSound(key, 0, 0);
 }
-hidePreloader(1);
+hidePreloader(3);
 

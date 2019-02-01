@@ -30,6 +30,9 @@ function initField() {
 	dashRefreshButton.onfocus = function() {
 		dashRefreshButton.blur();
 	}
+	for (var i = 0;i<dashButtons.length;i++) {
+		dashButtons[i].addEventListener("mousedown", makeSound.bind(this, "click"));
+	}
 }
 function turnGameOn() {
 	drawTarget();

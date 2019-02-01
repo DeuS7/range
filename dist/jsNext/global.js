@@ -14,6 +14,7 @@ var scoreBoard = document.getElementsByClassName("scoreBoard")[0];
 var shotsBoard = document.getElementsByClassName("shotsBoard")[0];
 var commentBoard = document.getElementsByClassName("commentBoard")[0];
 var preloader = document.getElementById("preloader");
+var dashButtons = document.querySelectorAll("button.dashBoardElement");
 
 
 var dimension = 500;
@@ -55,7 +56,8 @@ var sounds = {
 	shot: ["sniperRifle.mp3"],
 	shell: ["empty-bullet-shell-fall-01.mp3", 1],
 	applause: ["shortPoliteApplause.wav"],
-	misfire: ["cocking.wav"]
+	misfire: ["cocking.wav"],
+	click: ["buttonClick.wav"]
 }
 
 var comments = {
