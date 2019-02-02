@@ -4,5 +4,4 @@ function hidePreloader(delay) {
 	setTimeout(function() {
 		preloader.remove();
 	}, delay*1000);
-
 }

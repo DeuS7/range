@@ -17,8 +17,22 @@
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
+@media only screen and (max-width : 600px) {
+	#playInfo {
+		width: 500px;
+	}
+	.flexColumnLine {
+		margin: 20px;
+	}
+	.titleUnderBoard:after {
+		font-size: 30px;
+	}
+	#contentWrapper {
+		padding: 0;
+	}
+	#canvasWrapper {
+		border-radius: 0;
+	}
 }
 
 /* Custom, iPhone Retina */

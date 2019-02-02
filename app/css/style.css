@@ -175,6 +175,7 @@ button:disabled {
 
 #contentWrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   padding: 25px 50px; }
